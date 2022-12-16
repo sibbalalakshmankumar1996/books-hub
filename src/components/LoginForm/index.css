@@ -1,0 +1,118 @@
+.login-form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
+  margin: auto;
+}
+@media screen and (min-width: 992px) {
+  .login-form-container {
+    flex-direction: row;
+    justify-content: flex-start;
+    background: #f8fafc;
+  }
+}
+.login-image {
+  width: 216px;
+  height: 216px;
+  border-radius: 50%;
+}
+@media screen and (min-width: 992px) {
+  .login-image {
+    width: 55vw;
+    height: 100%;
+    border-radius: 0px;
+  }
+}
+.form-main-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+}
+@media screen and (min-width: 992px) {
+  .form-main-container {
+    width: 45vw;
+  }
+}
+.book-hub-logo {
+  width: 104px;
+}
+@media screen and (min-width: 992px) {
+  .book-hub-logo {
+    width: 141px;
+  }
+}
+.form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  border-radius: 8px;
+  width: 100%;
+  background: #ffffff;
+}
+@media screen and (min-width: 992px) {
+  .form-container {
+    max-width: 500px;
+    /* flex-shrink: 0; */
+    box-shadow: 0px 8px 40px rgba(7, 7, 7, 0.08);
+    padding: 64px 48px 64px 48px;
+    justify-self: center;
+  }
+}
+.input-container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  width: 100%;
+}
+
+.input-label {
+  margin-bottom: 0px;
+  font-family: 'Roboto';
+  font-weight: bold;
+  line-height: 16px;
+  color: #5a7184;
+}
+
+.input-field {
+  font-size: 16px;
+  border: 1px solid #c3cad9;
+  background-color: #ffffff;
+  color: #183b56;
+  border-radius: 8px;
+  margin-top: 12px;
+  padding: 18px 20px;
+  outline: none;
+}
+.login-button {
+  font-family: 'Roboto';
+  font-weight: bold;
+  font-size: 16px;
+  /* height: 40px; */
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: 2px;
+  background: #0284c7;
+  border-radius: 8px;
+  padding: 9px 0px;
+  color: #ffffff;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+@media screen and (min-width: 992px) {
+  .login-button {
+    font-size: 18px;
+    padding: 18px 0px;
+  }
+}
+.error-message {
+  color: #ef4444;
+  font-size: 14px;
+  font-family: 'Roboto';
+  font-weight: 400;
+}
